@@ -1,7 +1,7 @@
 <p align="center">  
   <a href="https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j">
     <img alt="wasi" height="300" src="https://i.ibb.co/wgHd1nS/fantasy-coat-smile-guy-girl-Art-canines-tie-Vampires-1920x1200.jpg">
-    <h1 align="center">WASI MD V2</h1>
+    <h1 align="center">🕷️༒ＤEVIL༒ANSH༒🕸️</h1>
   </a>
 </p>
 <p align="center">
