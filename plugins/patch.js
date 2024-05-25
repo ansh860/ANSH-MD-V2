@@ -318,7 +318,7 @@ ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*𝚆𝙰𝚂𝙸-𝙼𝙳-𝚅2*
+*ANSH-SINGH-𝚅2*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -540,7 +540,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*𝘓𝘢𝘵𝘦𝘯𝘤𝘺.................🙆‍♂️: ${pingTime} ᴍs*`,
+      `*Your Father's Speed................☠️: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
@@ -578,7 +578,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝘞𝘈𝘚𝘐 𝘔𝘋 𝘝2\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\n𝚆𝙰𝚂𝙸 𝙼𝙳 𝚅𝟸`;
+          const captionText = `ABSH SINGH 𝘝2\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nANSH SINGH 𝚅𝟸`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -600,7 +600,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝚆𝙰𝚂𝙸 𝙼𝙳 𝚅𝟸 \n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n𝚆𝙰𝚂𝙸 𝙼𝙳 𝚅𝟸`;
+          const captionText = `ANSH SINGH 𝚅𝟸 \n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nABSH SINGH 𝚅𝟸`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -622,7 +622,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝘞𝘈𝘚𝘐-𝘔𝘋-𝘝2\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\n𝗕𝗬-𝗪𝗔𝗦𝗜-𝗦𝗘𝗥`;
+          const captionText = `ANSH-SINGH-𝘝2\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\n𝗕𝗬-ANSH-𝗦𝗘𝗥`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -675,7 +675,7 @@ smd(
         forwardingScore: 999,
         title: "wasi MD Running Since",
         body: message,
-        footerText: "wasi MD 2024",
+        footerText: "ANSH BOT  2024",
         isSendNotificationMsg: true,
         mentionedJid: [],
       };
@@ -696,7 +696,7 @@ astro_patch.cmd({
       const {
         commands: _0x7cfe13
       } = require("../lib");
-      let _0x95885d = "\n\t*𝗪𝗔𝗦𝗜-𝗠𝗗-𝗩2-𝗖𝗠𝗗-𝗜𝗡𝗙𝗢*  \n";
+      let _0x95885d = "\n\t*ANSH-SINGH-𝗩2-𝗖𝗠𝗗-𝗜𝗡𝗙𝗢*  \n";
       for (let _0x2bd72c = 0; _0x2bd72c < _0x7cfe13.length; _0x2bd72c++) {
         if (_0x7cfe13[_0x2bd72c].pattern == undefined) {
           continue;
@@ -996,7 +996,7 @@ function _0x593b() {
     "schedule",
     "_COMMANDS*  \n┗━━━━━━━━━━━━━━━━━━━━━━━\n\n\n",
     "text",
-    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\t𝘄𝗮𝘀𝗶-𝗠𝗱_",
+    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\tANSH-𝗠𝗱_",
     "2716190HSgAcg",
     "info",
     "endsWith",
@@ -1093,7 +1093,7 @@ smd(
       if (!isNaN(_0x56b5d3)) {
         if (
           _0x1eb88a[_0x210c92(367)] > 30 &&
-          _0x1eb88a[1][_0x210c92(362)]("WASI-MD_FANCY_TEXT")
+          _0x1eb88a[1][_0x210c92(362)]("ANSH-SINGH_FANCY_TEXT")
         ) {
           var _0x7b7a13 = _0x1eb88a[_0x210c92(379)]((_0x4377cc) =>
             _0x4377cc.startsWith(_0x56b5d3 + " ")
