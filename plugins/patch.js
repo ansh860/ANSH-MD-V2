@@ -376,7 +376,7 @@ smd(
         _0x22514a.date +
         "\n*➮ɴᴏᴡ ᴛɪᴍᴇ :* " +
         _0x22514a.time +
-        "\n\n➮Fᴏᴜɴᴅᴇʀ- Itxxwasi Team\n➮Oᴡɴᴇʀ - " +
+        "\n\n➮Fᴏᴜɴᴅᴇʀ- ItxxAnsh Team\n➮Oᴡɴᴇʀ - " +
         Config.ownername +
         "\n➮Nᴜᴍ - " +
         owner.split(",")[0] +
@@ -673,7 +673,7 @@ smd(
       const contextInfo = {
         isForwarded: true,
         forwardingScore: 999,
-        title: "wasi MD Running Since",
+        title: "Ansh Singh Running Since",
         body: message,
         footerText: "ANSH BOT  2024",
         isSendNotificationMsg: true,
