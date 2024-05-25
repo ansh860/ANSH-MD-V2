@@ -48,7 +48,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-🕷️༒ＤEVIL༒ANSH༒🕸️😍",
+  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-༒ＤEVIL༒ANSH🕸️",
   author: process.env.PACK_AUTHER || "🕷️༒ＤEVIL༒ANSH༒🕸️",
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "🕷️༒ＤEVIL༒ANSH༒🕸️",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "🕷️༒ＤEVIL༒ANSH༒🕸️").toUpperCase(),
+  LANG: (process.env.THEME || "🕸️༒ＤEVIL༒ANSH༒🕸️").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
