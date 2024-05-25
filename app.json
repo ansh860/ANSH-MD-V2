@@ -1,5 +1,5 @@
 {
-  "name": "wasi-md-v2",
+  "name": "AnshSinghBot",
   "description": "Simple WhatsApp Bot",
   "logo": "https://i.ibb.co/wgHd1nS/fantasy-coat-smile-guy-girl-Art-canines-tie-Vampires-1920x1200.jpg?raw=true",
   "keywords": ["Ansh-V2", "AnshV2", "ANSH SINGH","ANSH","ansh","༒ＤEVIL༒ANSH༒"],
@@ -32,7 +32,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required": false,
-      "value": "Asia/Karachi"
+      "value": "Asia/Kolkata"
     },
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -55,7 +55,7 @@
       "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "Put Your Heroku App Name Here",
+      "description": "Put Your Heroku App Name",
       "value": "",
       "required": true
     },
@@ -90,7 +90,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": ""
+      "value": "+917376279802"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -102,7 +102,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "WASI",
+      "value": "༒ＤEVIL༒ANSH༒",
       "required": false
     },
     "PACK_AUTHER": {
