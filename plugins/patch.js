@@ -600,7 +600,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ANSH SINGH 𝚅𝟸 \n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nABSH SINGH 𝚅𝟸`;
+          const captionText = `ANSH SINGH 𝚅𝟸 \n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nANSH SINGH 𝚅𝟸`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
