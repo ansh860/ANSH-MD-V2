@@ -578,7 +578,7 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `ABSH SINGH 𝘝2\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nANSH SINGH 𝚅𝟸`;
+          const captionText = `ANSH SINGH 𝘝2\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nANSH SINGH 𝚅𝟸`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
