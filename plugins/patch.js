@@ -540,7 +540,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*Your Father's Speed................☠️: ${pingTime} ᴍs*`,
+      `*Your Father's Speed.........☠️: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
