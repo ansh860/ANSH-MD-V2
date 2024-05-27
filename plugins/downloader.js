@@ -802,7 +802,7 @@ smd(
            const sticker = await getBuffer(fileUrl);
            await message.reply(
              sticker,
-             { packname: Config.packname, author: "WASI-Md" },
+             { packname: Config.packname, author: "ANSH-SINGH" },
              "sticker"
            );
          } else {
@@ -1590,7 +1590,7 @@ smd(
          return m.reply("*_Could not find the file!_*");
        }
  
-       const caption = `『 *WASI MD V2 -ᴍᴅ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
+       const caption = `『 *ANSH SINGH V2 -ᴍᴅ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
        const fancyCaption = await fancytext(caption, 25);
        const contextInfo = {
          ...(await m.bot.contextInfo(Config.botname, "MEDIAFIRE")),
@@ -2062,7 +2062,7 @@ smd({
            _0xb75e78.error(_0x3de0e2 + "\n\nCommand yts Listener", _0x3de0e2, "*Video Not Found!*");
          }
        }
-     } else if (_0x5b8ee5[0].includes("ᴀsᴛᴀ-ᴍᴅ • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ")) {
+     } else if (_0x5b8ee5[0].includes("ANSH-SINGH • ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪsᴛ")) {
        let _0x35d668 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
        const _0x205a5f = _0x5b8ee5.find(_0x304058 => _0x304058.startsWith(_0x35d668));
        if (_0x205a5f) {
