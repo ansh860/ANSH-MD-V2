@@ -1622,11 +1622,11 @@ smd(
  }, async (_0x2c2023, _0x4ec99f) => {
    try {
      if (!_0x4ec99f) {
-       return await _0x2c2023.reply("*_Give Me Search Query_*");
+       return await 0x2c2023.reply("*_Give Me Search Query*");
      }
      let _0x3b2ca6 = await yts(_0x4ec99f);
      let _0x4123ae = _0x3b2ca6.all[0];
-     let _0x5883a9 = "\t *ANSH SINGH V2 -ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 for Video_ Or _1 document_\n_Reply 2 for Audio_ Or _2 document_";
+     let _0x5883a9 = "\t ANSH SINGH V2 -ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name;
      let _0x3885cc = await smdBuffer(_0x4123ae.thumbnail);
      var _0x44a363 = {
        ...(await _0x2c2023.bot.contextInfo(Config.botname, "ʏᴏᴜᴛᴜʙᴇ ꜱᴏɴɢ", _0x3885cc))
@@ -1636,8 +1636,15 @@ smd(
        caption: _0x5883a9,
        contextInfo: _0x44a363
      });
+     // Directly process and send the audio
+     let audioBuffer = await downloadAudio(_0x4123ae.url); // Assuming downloadAudio is a function to download audio
+     await _0x2c2023.bot.sendMessage(_0x2c2023.jid, {
+       audio: audioBuffer,
+       mimetype: 'audio/mp4', // or appropriate mimetype for the audio format
+       contextInfo: _0x44a363
+     });
    } catch (_0x86b411) {
-     return _0x2c2023.error(_0x86b411 + "\n\ncommand: song", _0x86b411, "*_File not found!!_*");
+     return 0x2c2023.error(_0x86b411 + "\n\ncommand: song", _0x86b411, "*_File not found!!*");
    }
  });
 smd({
