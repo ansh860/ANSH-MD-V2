@@ -1631,7 +1631,7 @@ smd(
      var _0x44a363 = {
        ...(await _0x2c2023.bot.contextInfo(Config.botname, "ʏᴏᴜᴛᴜʙᴇ ꜱᴏɴɢ", _0x3885cc))
      };
-     await _0x2c2023.bot.sendMessage(_0x2c2023.jid, {
+      {
        image: _0x3885cc,
        caption: _0x5883a9,
        contextInfo: _0x44a363
