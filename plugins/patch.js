@@ -188,7 +188,7 @@ smd(
           }
         }
 
-        return await message.send("`wasi-MD UPDATE WAS SUCCESSFULL ✅`");
+        return await message.send("`PANDA-BOT UPDATE WAS SUCCESSFULL ✅`");
       } else {
         return await message.send(
           "*Auto Updated Failed, Unable to Download Update Please Manually Do It*"
@@ -540,7 +540,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*Your Father's Speed▰▰▱▱▱☠️: ${pingTime} ᴍs*`,
+      `*Your Father's Speed▰▰▱☠️: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
