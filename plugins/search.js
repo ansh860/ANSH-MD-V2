@@ -124,7 +124,7 @@ smd({
   );
  
    smd({
-           pattern: "wasi",
+           pattern: "findsong",
            category: "search",
            desc: "Finds info about song",
            filename: __filename,
@@ -155,7 +155,7 @@ async(message, match) => {
  try{
 
    message.react("🔍")
-         if (!match) return message.reply(`Give me a user name like ${prefix}github Itxxwasi`)
+         if (!match) return message.reply(`Give me a user name like ${prefix}github ankit860`)
 
          const { data } = await axios(`https://api.github.com/users/${match}`)
    if(!data) return await message.send(`*_Didn't get any results, Provide valid user name!_*`)
@@ -650,7 +650,7 @@ smd({
     ) 
     //---------------------------------------------------------------------------
 smd({
-        pattern: "iswa",
+        pattern: "findwhatsapp",
         alias: ["oldwa","bio","onwa"],
         category: "search",
         desc: "Searches in given rage about given number.",
@@ -704,7 +704,7 @@ smd({
 
 
 smd({
-        pattern: "nowa",
+        pattern: "findwhatsapp1",
         category: "search",
         desc: "Searches in given rage about given number.",
         use: '9112345678xx',
