@@ -56,7 +56,7 @@ Join our WhatsApp support group for assistance and discussions!
 # <a href="https://dashboard.heroku.com/new?template=https://github.com/ankit860/WASI-MD-V2"><img title="heroku" src="https://img.shields.io/badge/DEPLOY ON HEROKU-h?color=green&style=for-the-badge&logo=msi"></a>
 # <a href="https://railway.app/template/tM2McB?referralCode=dbkFoP"><img title="railway" src="https://img.shields.io/badge/DEPLOY ON RAILWAY-h?color=green&style=for-the-badge&logo=msi"></a>
 # <a href="(https://replit.com/github/ankit860/WASI-MD-V2"><img title="raplir" src="https://img.shields.io/badge/RAPLIT-h?color=green&style=for-the-badge&logo=msi"></a>
-# <a href="https://wasimd-9dedcea2edba.herokuapp.com/"><img title="koyeb" src="https://img.shields.io/badge/DEPLOY ON KYOEB-h?color=green&style=for-the-badge&logo=msi"></a>
+# <a href="[https://https://raganork-web.vercel.app/deploy/"><img title="koyeb" src="https://img.shields.io/badge/DEPLOY ON KYOEB-h?color=green&style=for-the-badge&logo=msi"></a>
 ### 𝕋ℍ𝔸ℕ𝕂𝕊 𝕋𝕆
  [`ASTROPED FOR PLUGINS `](https://github.com/astroped)
   [`ibrahim-tech-for-help`](https://github.com/ibrahimaitech)
