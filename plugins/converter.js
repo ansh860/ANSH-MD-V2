@@ -363,7 +363,7 @@ smd({
     let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*ANSH-SINGH-𝐅𝐀𝐍𝐂𝐘-𝐓𝐄𝐗𝐓💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy Asta(For all text)\n\t\t" + prefix + "fancy 25 Asta(For specific text)```\n\n");
     let _0x50c7d9 = parseInt(_0x3b568a);
     if (isNaN(_0x50c7d9)) {
-      let _0x4ca942 = _0x3b568a ? _0x3b568a : "Wasi";
+      let _0x4ca942 = _0x3b568a ? _0x3b568a : "Ansh";
       listall(_0x4ca942).forEach((_0x51f58f, _0x2be109) => {
         _0x365550 += "\n" + (_0x2be109 += 1) + " " + _0x51f58f + "\n";
       });
