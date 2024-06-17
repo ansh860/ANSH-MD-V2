@@ -1197,12 +1197,12 @@ smd(
    desc: "text to speech.",
    category: "downloader",
    filename: __filename,
-   use: "<Hii,this is Asta>"
+   use: "<Hii,this is PANDA BOT>"
  }, async (_0x55aba2, _0x56da6b) => {
    try {
      let _0x204f81 = _0x55aba2.reply_text ? _0x55aba2.reply_text : _0x56da6b;
      if (!_0x204f81) {
-       return _0x55aba2.reply("*_Example : .tts Hi,I am WASI-Md whatsapp bot._*");
+       return _0x55aba2.reply("*_Example : .tts Hi,I am ANSH-Md whatsapp bot._*");
      }
      try {
        let _0x1974d5 = _0x56da6b ? _0x56da6b.split(" ")[0].toLowerCase() : "en";
@@ -1217,7 +1217,7 @@ smd(
          },
          mimetype: "audio/mpeg",
          ptt: true,
-         fileName: "WASI-Md-tts.m4a"
+         fileName: "ANSH-Md-tts.m4a"
        }, {
          quoted: _0x55aba2
        });
@@ -1366,7 +1366,7 @@ smd(
      };
      let _0x4737bb = {
        audio: _0x2ba501,
-       fileName: "Asta-Md tiktok Sound" + _0x19c223 + ".m4a",
+       fileName: "PANDA-Md tiktok Sound" + _0x19c223 + ".m4a",
        mimetype: "audio/mpeg",
        ptt: true,
        contextInfo: _0x29fdd9
@@ -1590,7 +1590,7 @@ smd(
          return m.reply("*_Could not find the file!_*");
        }
  
-       const caption = `『 *ANSH SINGH V2 -ᴍᴅ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
+       const caption = `『 *PANDA BOT V2 MEDIAFIRE DOWNLOADER* 』\n\n *Name* : ${result.name}\n *Size* : ${result.size}\n *Mime* : ${result.mime}\n\n\n${Config.caption}`;
        const fancyCaption = await fancytext(caption, 25);
        const contextInfo = {
          ...(await m.bot.contextInfo(Config.botname, "MEDIAFIRE")),
@@ -1626,7 +1626,7 @@ smd(
      }
      let _0x3b2ca6 = await yts(_0x4ec99f);
      let _0x4123ae = _0x3b2ca6.all[0];
-     let _0x5883a9 = "\t *ANSH SINGH V2 -ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 for Video_ Or _1 document_\n_Reply 2 for Audio_ Or _2 document_";
+     let _0x5883a9 = "\t *PANDA BOT V2 • SONG DOWNLOADER*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 for Video_ Or _1 document_\n_Reply 2 for Audio_ Or _2 document_";
      let _0x3885cc = await smdBuffer(_0x4123ae.thumbnail);
      var _0x44a363 = {
        ...(await _0x2c2023.bot.contextInfo(Config.botname, "ʏᴏᴜᴛᴜʙᴇ ꜱᴏɴɢ", _0x3885cc))
@@ -1654,7 +1654,7 @@ smd({
      }
      let _0x3b2ca6 = await yts(_0x4ec99f);
      let _0x4123ae = _0x3b2ca6.all[0];
-     let _0x5883a9 = "\t *ANSH SINGH V2 -ᴍᴅ • sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 for Video_ Or _1 document_\n_Reply 2 for Audio_ Or _2 document_";
+     let _0x5883a9 = "\t *ANSH SINGH V2• sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*   \n\n*Title :* " + _0x4123ae.title + "\nUrl : " + _0x4123ae.url + "\n*Description :* " + _0x4123ae.timestamp + "\n*Views :* " + _0x4123ae.views + "\n*Uploaded :* " + _0x4123ae.ago + "\n*Author :* " + _0x4123ae.author.name + "\n\n\n_Reply 1 for Video_ Or _1 document_\n_Reply 2 for Audio_ Or _2 document_";
      let _0x3885cc = await smdBuffer(_0x4123ae.thumbnail);
      var _0x44a363 = {
        ...(await _0x2c2023.bot.contextInfo(Config.botname, "ʏᴏᴜᴛᴜʙᴇ ꜱᴏɴɢ", _0x3885cc))
@@ -2022,7 +2022,7 @@ smd({
        } catch (_0x189dd8) {
          return await _0xb75e78.reply("Error While Downloading Video : " + _0x189dd8);
        }
-     } else if (_0x5b8ee5[0].includes("ᴀsᴛᴀ-ᴍᴅ • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ")) {
+     } else if (_0x5b8ee5[0].includes("ANSH-MD • ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ")) {
        let _0x307bb6 = "*" + _0xb75e78.text.split(" ")[0] + " : ";
        const _0x56275d = _0x5b8ee5.find(_0x3b5e74 => _0x3b5e74.startsWith(_0x307bb6));
        if (_0x56275d) {
