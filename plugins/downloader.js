@@ -1152,7 +1152,7 @@ smd(
          : "";
        if (!_0x1c586e) {
          return await _0x1ae8f8.reply(
-           "*Provide Repo Url, _.gitclone https://github.com/Itxxwasi/WASI-Md_*"
+           "*Provide Repo Url, _.gitclone https://github.com/ansh860/ANSH-MD-V2*"
          );
        }
        const _0x5906ab =
